@@ -89,7 +89,7 @@ make install
 * 从 https://rakudo.perl6.org/downloads/star/ 下载最新的安装器(.dmg 后缀的文件) 
 
 .Windows
-. 从 http://rakudo.org/downloads/star/ 下载最新的安装器(.msi 后缀的文件) +
+. 从 http://rakudo.org/downloads/star/ 下载最新的安装程序(.msi 后缀的文件) +
 如果你的系统架构是 32-bit, 则下载 x86 文件; 如果是 64-bit, 下载 x86_64 文件。
 . 安装完成后，确保 `C:\rakudo\bin` 在 PATH 中。
 
@@ -127,17 +127,17 @@ Rakudo Star 搭载了一个行编辑器来帮你最大程度地利用 REPL。
 因为大多数情况下我们会在文件中编写并存储 Perl 6 程序，因此我们需要一个优雅的而且能识别 Perl 6 语法的文本编辑器。
 
 从个人角度来说，我推荐正在使用的 https://atom.io/[Atom]。
-这是一个时尚的文本编辑器，带有开箱即用的 Perl 6 语法高亮功能。
+这是一个新式的文本编辑器，自带现成的 Perl 6 语法高亮功能。
 https://atom.io/packages/language-perl6[Perl 6 FE] 是相对于 Atom 默认 Perl 6 语法高亮插件的另一种选择，也可以高亮 Perl 6 的语法，该软件来源于原始的包，
 但存在很多 bug 需要修补和编辑。
 
 社区里的其他同伴也有使用 http://www.vim.org/[Vim] ， https://www.gnu.org/software/emacs/[Emacs] 和 http://padre.perlide.org/[Padre] 的。
 
-最新版本的 Vim 自带 Perl 6 语法高亮的功能，Emacs 和 Padre 则需要另行安装额外的包。
+最新版的 Vim 自带 Perl 6 语法高亮功能，Emacs 和 Padre 则需要另行安装额外的包。
 
 
 === Hello World!
-我们会从 `hello world` 惯例程序开始。
+按照老规矩，我们会从 `hello world` 程序开始。
 
 [source,perl6]
 say 'hello world';
@@ -148,7 +148,7 @@ say 'hello world';
 'hello world'.say;
 
 === 语法概要
-Perl 6 是 *形式自由的*: 你可以使用(大多数时候)任何数量的空格。
+Perl 6 是 *形式自由的*: 你可以使用(大多数时候)任意数量的空格。
 
 *语句* 通常是一个逻辑代码行, 它们需要以一个分号结尾:
 `say "Hello" if True;`
